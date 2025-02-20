@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #2f4680, #500ae4);
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.searchBar input{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: #626262;
+    background: #ebfffc;
+    font-size: 18px;
+}
+.searchBar img{
+    width: 50px;
+    padding: 15px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.weatherData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.weatherIcon{
+    width: 200px;
+    margin: 30px 0;
+}
+.temperature{
+    color: #fff;
+    font-size: 80px;
+}
+.location{
+    color: #fff;
+    font-size: 40px;
+}
+.additionalData{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.col div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+.col img{
+    width: 50px;
+}
